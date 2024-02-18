@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:fusion/Components/side_drawer.dart';
-
 class Course {
   String id;
   String name;
