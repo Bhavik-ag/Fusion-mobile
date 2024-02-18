@@ -132,6 +132,7 @@ class _AddThesisState extends State<AddThesis> {
               ),
               validator: (String? value) {
                 if (value!.isEmpty) return "Required";
+                return null;
               },
               onSaved: (value) {
                 researchArea = value!;
@@ -148,6 +149,7 @@ class _AddThesisState extends State<AddThesis> {
               maxLines: 50,
               validator: (String? value) {
                 if (value!.isEmpty) return "Required";
+                return null;
               },
               onSaved: (value) {
                 theme = value!;

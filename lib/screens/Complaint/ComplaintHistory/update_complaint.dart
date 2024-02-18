@@ -131,6 +131,7 @@ class _UpdateComplaintState extends State<UpdateComplaint> {
                 if (value!.isEmpty) {
                   return 'Please enter specific_location';
                 }
+                return null;
               },
             ),
             SizedBox(
@@ -159,6 +160,7 @@ class _UpdateComplaintState extends State<UpdateComplaint> {
                 if (value!.isEmpty) {
                   return 'Please enter details';
                 }
+                return null;
               },
             ),
             SizedBox(

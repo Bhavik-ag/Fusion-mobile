@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fusion/constants.dart';
@@ -48,6 +47,7 @@ class _LoginPageState extends State<LoginPage> {
         else if (value?.contains('@') == true) {
           return 'Please enter username only';
         }
+        return null;
 
       },
       autofillHints: [AutofillHints.username],
@@ -74,6 +74,7 @@ class _LoginPageState extends State<LoginPage> {
         } else if (value.length < 6) {
           return 'Password must be at least 6 characters';
         }
+        return null;
       },
       autofillHints: [AutofillHints.password],
     );

@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:fusion/models/notification.dart' as notif;
 import 'package:fusion/services/dashboard_service.dart';
 

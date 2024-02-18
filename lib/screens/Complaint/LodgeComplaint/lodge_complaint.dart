@@ -201,6 +201,7 @@ class _LodgeComplaintState extends State<LodgeComplaint> {
                   if (value!.isEmpty) {
                     return 'Please enter specific_location';
                   }
+                  return null;
                 },
               ),
               SizedBox(
@@ -229,6 +230,7 @@ class _LodgeComplaintState extends State<LodgeComplaint> {
                   if (value!.isEmpty) {
                     return 'Please enter details';
                   }
+                  return null;
                 },
               ),
               SizedBox(

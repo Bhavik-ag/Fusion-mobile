@@ -60,14 +60,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     MediaQueryData windowData =
-    MediaQueryData.fromWindow(WidgetsBinding.instance.window);
+    MediaQueryData.fromView(WidgetsBinding.instance.window);
     windowData = windowData.copyWith(
-      textScaleFactor: 1,
+      textScaler: TextScaler.linear(1),
     );
     return MediaQuery(
       data: windowData,
       child: MaterialApp(
-        useInheritedMediaQuery: true,
         title: 'Fusion',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(

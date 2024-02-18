@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fusion/Components/appBar.dart';
 import 'package:fusion/Components/side_drawer.dart';
-import 'package:fusion/models/profile.dart';
 import 'package:fusion/services/academic_service.dart';
 import 'package:fusion/models/academic.dart';
-import 'package:fusion/services/service_locator.dart';
-import 'package:fusion/services/storage_service.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart';

@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'dart:ui';
 
 class EducationMenu extends StatelessWidget {
   final List? educationData, coursesData;
@@ -402,7 +400,7 @@ class EducationMenu extends StatelessWidget {
                         onPressed: () => {
                           //Edit Function
                         },
-                        style: ElevatedButton.styleFrom(primary: Colors.red),
+                        style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
                       ),
                     ],
                   ),
@@ -722,7 +720,7 @@ class EducationMenu extends StatelessWidget {
                         onPressed: () => {
                           //Edit Function
                         },
-                        style: ElevatedButton.styleFrom(primary: Colors.red),
+                        style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
                       ),
                     ],
                   ),

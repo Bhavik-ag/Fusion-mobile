@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:fusion/constants.dart';
 import 'package:fusion/api.dart';
 import 'package:fusion/models/user.dart';
 import 'package:fusion/services/storage_service.dart';

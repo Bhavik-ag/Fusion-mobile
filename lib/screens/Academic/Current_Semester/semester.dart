@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fusion/models/academic.dart';
-import 'package:fusion/services/academic_service.dart';
-import 'package:http/http.dart';
 
 class Semester extends StatefulWidget {
   // final data;
